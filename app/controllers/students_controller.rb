@@ -9,6 +9,7 @@ class StudentsController < ApplicationController
   end
 
   def activate
+    binding.pry
     @student.active = true
   end
 
