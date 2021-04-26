@@ -10,7 +10,7 @@ class StudentsController < ApplicationController
 
   def activate
     binding.pry
-    @student.update(active: reverse_status)
+    @student.reverse_status
   end
 
   private
