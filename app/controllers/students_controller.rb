@@ -9,9 +9,7 @@ class StudentsController < ApplicationController
   end
 
   def activate
-    binding.pry
     @student.reverse_status
-    binding.pry
   end
 
   private
