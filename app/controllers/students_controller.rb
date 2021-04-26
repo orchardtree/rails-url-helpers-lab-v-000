@@ -10,6 +10,7 @@ class StudentsController < ApplicationController
 
   def activate
     @student.reverse_status
+    redirect to 'show'
   end
 
   private
